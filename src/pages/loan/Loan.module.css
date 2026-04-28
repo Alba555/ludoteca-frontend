@@ -1,0 +1,9 @@
+.tableActions {
+   display: flex;
+   justify-content: flex-end;
+}
+
+.filter {
+    display: flex;
+    align-items: center;
+}

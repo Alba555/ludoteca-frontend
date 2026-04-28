@@ -1,0 +1,28 @@
+.filter {
+    display: flex;
+    align-items: center;
+}
+
+.cards {
+    display: flex;
+    gap: 20px;
+    padding: 10px;
+    flex-wrap: wrap;
+}
+
+.card {
+    cursor: pointer;
+}
+
+@media (max-width: 800px) {
+    .cards {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .filter {
+        display: flex;
+        flex-direction: column;
+    }
+}
