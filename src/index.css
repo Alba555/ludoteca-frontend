@@ -1,0 +1,24 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+}
+
+body {
+  margin: 0;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #213547;
+    background-color: #ffffff;
+  }
+}
+
+.container {
+  margin: 20px;
+}
+
+.newButton {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 20px;
+}
