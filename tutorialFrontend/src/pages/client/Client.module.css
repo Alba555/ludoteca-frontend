@@ -1,0 +1,7 @@
+.tableActions {
+    margin-right: 20px;
+    display: flex;
+    justify-content: flex-end;
+    align-content: flex-start;
+    gap: 19px;
+}
